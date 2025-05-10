@@ -1,0 +1,11 @@
+let $counter = 0;
+
+if ($counter < 10) {
+    $counter = $counter + 1;
+    print(_name);
+}
+
+let isReady = true;
+if (isReady) {
+    doSmth();
+}

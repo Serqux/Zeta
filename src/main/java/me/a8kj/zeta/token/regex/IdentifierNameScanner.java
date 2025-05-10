@@ -1,7 +1,8 @@
-package me.a8kj.zeta.token.scanner;
+package me.a8kj.zeta.token.regex;
 
 import lombok.NonNull;
 import me.a8kj.utils.regex.RegexScanner;
+
 
 public class IdentifierNameScanner extends RegexScanner {
 

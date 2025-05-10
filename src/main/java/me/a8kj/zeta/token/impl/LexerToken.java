@@ -1,11 +1,13 @@
 package me.a8kj.zeta.token.impl;
 
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 import me.a8kj.zeta.token.Token;
 import me.a8kj.zeta.token.attributes.TokenCategory;
 import me.a8kj.zeta.token.attributes.TokenLocation;
 
 @Data
+@RequiredArgsConstructor
 public class LexerToken implements Token {
     private final String value;
     private final Enum<? extends TokenCategory> kind;

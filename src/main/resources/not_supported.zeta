@@ -1,0 +1,18 @@
+let $counter = 0;
+let _name = "ZetaLang";
+
+if ($counter < 10) {
+    $counter = $counter + 1;
+    print(_name);
+}
+
+# comment
+
+/#
+comment
+#/
+
+let isReady = true;
+if (isReady) {
+    runTask("Compile"); 
+}
